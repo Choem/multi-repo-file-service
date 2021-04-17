@@ -1,0 +1,5 @@
+minio:
+  existingSecret: minio-secret
+  buckets:
+    - name: argo-artifacts
+      policy: none
