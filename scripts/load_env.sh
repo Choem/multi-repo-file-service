@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Get project root path
-ROOT_PATH=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )/../..
+ROOT_PATH=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )/..
 
 # Env file path
 ENV_FILE=$ROOT_PATH/.env

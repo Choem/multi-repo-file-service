@@ -9,8 +9,8 @@ docker_build_with_restart(
   '.',
   entrypoint='/start_app',
   target='dev',
-  dockerfile='./services/file-service/Dockerfile',
+  dockerfile='Dockerfile',
   live_update=[
-    sync('./services/file-service', '/usr/src/app'),
+    sync('./src', '/usr/src/app'),
   ],
 )
