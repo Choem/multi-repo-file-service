@@ -50,3 +50,7 @@ func main() {
 	// Start http server
 	log.Fatal(http.ListenAndServe(":4000", nil))
 }
+
+func Sum(x int, y int) int {
+	return x + y
+}
