@@ -2,6 +2,7 @@
 load('ext://restart_process', 'docker_build_with_restart')
 
 # File service deployment and live development
+k8s_yaml(helm('deployments/minio', name='minio'))
 k8s_yaml(helm('deployments/file-service', name='file-service'))
 
 docker_build_with_restart(
