@@ -1,0 +1,4 @@
+minio:
+  existingSecret: minio-secret
+
+createSecret: true
